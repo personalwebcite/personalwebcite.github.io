@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Personal Website">
+		<title>Мироненко Кирилл</title>
+		<!-- Нормализация стилей -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">	
+		<!-- Свои стили -->
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="shortcut icon" type="image/x-icon"  href="img/favicon/favicon1.ico">
+		
+<!-- Скрипты -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src=js/jquery.mb.YTPlayer.min.js></script>
+<script src=js/device.min.js></script>
+<script>
+        var myPlayer;
+        jQuery(function () {
+            var options = {
+                mobileFallbackImage: "https://avatanplus.com/files/resources/original/56d48a59c92b51532e3c6ee0.jpg",
+                playOnlyIfVisible  : false
+            };
+            myPlayer = jQuery(".player").YTPlayer(options);
+        });
+</script>
+	</head>
+
+<body>
+    <div id="bgndVideo" class="player" 
+    data-property="{
+    videoURL:'https://www.youtube.com/watch?v=WBJWEU7yt0E',
+    <!-- https://www.youtube.com/watch?v=vNJnOfyhweo -->
+    containment:'body',     
+    autoPlay:true,
+    loop:true,
+    startAt:0,
+    vol:1,
+    opacity:0.8,  
+     }">
+    </div>
+<div class="q"><center>Mironenko Kirill</center></div>
+<div class="ss">
+ <a href="https://vk.com/kchipson"><i class="fa fa-vk fa-5x" aria-hidden="true"></i></a>
+<a href="https://plus.google.com/u/0/104904873520211767599"><i class="fa fa-google-plus fa-5x" aria-hidden="true"></i></a>
+<a href=""><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a>
+<a href="https://github.com/KCHIPSON"><i class="fa fa-github fa-5x" aria-hidden="true"></i></a>
+</div>
+</body>
+</html>

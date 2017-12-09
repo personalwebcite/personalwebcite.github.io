@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
+
+
+.buttonBar {
+	display: none;
+}
+.q {
+	color:white;
+	top: 5vh;
+	font-size: 5em;
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-shadow: 
+		-0   -1px 3px #21FF37,
+		 0   -1px 3px #21FF37,
+		-0    1px 3px #21FF37,
+		 0    1px 3px #21FF37,
+		-1px -0   3px #21FF37,
+		 1px -0   3px #21FF37,
+		-1px  0   3px #21FF37,
+		 1px  0   3px #21FF37,
+		-1px -1px 3px #21FF37,
+		 1px -1px 3px #21FF37,
+		-1px  1px 3px #21FF37,
+		 1px  1px 3px #21FF37,
+		-1px -1px 3px #21FF37,
+		 1px -1px 3px #21FF37,
+		-1px  1px 3px #21FF37,
+		 1px  1px 3px #21FF37,
+		 0px 0px 100px white;
+	cursor: default;
+}
+
+.ss{
+	display: -webkit-flex; 
+	display: flex;
+	justify-content:space-around;
+	position: fixed; /* Фиксированное положение */
+    bottom: 2em;
+    
+    width: 100%; /* Ширина слоя */
+
+}
+.fa {
+	color: white;
+		text-shadow: 
+		-0   -1px 3px #FFBF59,
+		 0   -1px 3px #FFBF59,
+		-0    1px 3px #FFBF59,
+		 0    1px 3px #FFBF59,
+		-1px -0   3px #FFBF59,
+		 1px -0   3px #FFBF59,
+		-1px  0   3px #FFBF59,
+		 1px  0   3px #FFBF59,
+		-1px -1px 3px #FFBF59,
+		 1px -1px 3px #FFBF59,
+		-1px  1px 3px #FFBF59,
+		 1px  1px 3px #FFBF59,
+		-1px -1px 3px #FFBF59,
+		 1px -1px 3px #FFBF59,
+		-1px  1px 3px #FFBF59,
+		 1px  1px 3px #FFBF59;
+}
+
+.fa-vk:hover{
+	transition: 1.5s;
+	color:#163BF7; 
+	cursor: pointer;
+}
+
+.fa-google-plus:hover{
+	transition: 1.5s;
+	color:#F20D0D; 
+	cursor: pointer;
+}
+
+.fa-envelope-o:hover{
+	transition: 1.5s;
+	color:#00FF66; 
+	cursor: pointer;
+}
+.fa-github:hover{
+	transition: 1.5s;
+	color:#777777; 
+	cursor: pointer;
+}
