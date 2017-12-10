@@ -6,6 +6,7 @@
 @import url(http://allfont.ru/allfont.css?fonts=popstarsfill);
 @import url(http://allfont.ru/allfont.css?fonts=beat-my-guest);
 @import url(http://allfont.ru/allfont.css?fonts=beyond-wonderland);
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Bungee|Frijole|Kaushan+Script|Kranky|Monoton|Sedgwick+Ave+Display|Vast+Shadow');
 
 
 
@@ -21,7 +22,13 @@ body{
 	color:white;
 	top: 5vh;
 	font-size: 5em;
-  	font-family: 'Beyond Wonderland', arial;
+  	
+	/*font-family: 'Berkshire Swash', cursive;*/
+	/*font-family: 'Kaushan Script', cursive;*/
+	font-family: 'Monoton', cursive;
+	/*font-family: 'Sedgwick Ave Display', cursive;*/
+	/*font-family: 'Kranky', cursive;*/
+	/*font-family: 'Frijole', cursive;*/
 	text-shadow: 
 		-0   -1px 3px #21FF37,
 		 0   -1px 3px #21FF37,
@@ -41,6 +48,10 @@ body{
 		 1px  1px 3px #21FF37,
 		 0px 0px 100px white;
 	cursor: default;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
 }
 
 .ss{
