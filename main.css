@@ -19,9 +19,11 @@ body{
 	display: none;
 }
 .q {
-	color:white;
+	color:black;
 	top: 5vh;
 	font-size: 5em;
+	transition: color 1s ease-out;
+	text-align: center;
   	
 	/*font-family: 'Berkshire Swash', cursive;*/
 	/*font-family: 'Kaushan Script', cursive;*/
@@ -59,8 +61,7 @@ body{
 	display: flex;
 	justify-content:space-around;
 	position: fixed; /* Фиксированное положение */
-    bottom: 2em;
-    
+    bottom: 2em;   
     width: 100%; /* Ширина слоя */
 
 }
@@ -106,4 +107,7 @@ body{
 	transition: 1.5s;
 	color:#777777; 
 	cursor: pointer;
+}
+#id{
+
 }
