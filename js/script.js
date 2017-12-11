@@ -13,7 +13,7 @@ $( document ).ready(function(){
 // *********************************
 // КЛИК ПО МИРОНЕНКО КИРИЛЛ
 // *********************************
-$("#link").dblclick(function(){ 
+$("#link").click(function(){ 
 	   $("#link").text('Shit the website'); 
 	  });
 
