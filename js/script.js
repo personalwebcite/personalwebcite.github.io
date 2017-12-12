@@ -13,10 +13,23 @@ $( document ).ready(function(){
 // *********************************
 // КЛИК ПО МИРОНЕНКО КИРИЛЛ
 // *********************************
-$("#link").click(function(){ 
-	   $("#link").text('Shit the website'); 
-	  });
-
+$(".clickMe").dblclick(function(e){
+  e.preventDefault;
+	var text = $(this).find("#link").text();
+  var text1 = $(this).attr("data-text1");
+  var text2 = $(this).attr("data-text2");
+  var text3 = $(this).attr("data-text3");
+  
+  if (text == text1) {
+  	$(this).find("#link").text(text2);
+  }
+  else if (text == text2) {
+  	$(this).find("#link").text(text3);
+  }
+  else if (text == text3) {
+  	$(this).find("#link").text(text1);
+  }
+});
 // *********************************
 // СМЕНА ЦВЕТА
 // *********************************

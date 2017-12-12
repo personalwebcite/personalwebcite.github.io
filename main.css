@@ -18,7 +18,7 @@ body{
 .buttonBar {
 	display: none;
 }
-.q {
+#link {
 	color:black;
 	top: 5vh;
 	font-size: 5em;
@@ -107,7 +107,4 @@ body{
 	transition: 1.5s;
 	color:#777777; 
 	cursor: pointer;
-}
-#id{
-
 }
