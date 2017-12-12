@@ -18,13 +18,11 @@ body{
 .buttonBar {
 	display: none;
 }
+
 #link {
-	color:black;
-	top: 5vh;
 	font-size: 5em;
 	transition: color 1s ease-out;
 	text-align: center;
-  	
 	/*font-family: 'Berkshire Swash', cursive;*/
 	/*font-family: 'Kaushan Script', cursive;*/
 	font-family: 'Monoton', cursive;
@@ -54,6 +52,7 @@ body{
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 	cursor: default;
+	padding-top: 3vh;
 }
 
 .ss{
