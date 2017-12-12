@@ -19,6 +19,14 @@ $(".clickMe").dblclick(function(e){
   var text1 = $(this).attr("data-text1");
   var text2 = $(this).attr("data-text2");
   var text3 = $(this).attr("data-text3");
+  var text4 = $(this).attr("data-text4");
+  var text5 = $(this).attr("data-text5");
+  var text6 = $(this).attr("data-text6");
+  var text7 = $(this).attr("data-text7");
+  var text8 = $(this).attr("data-text8");
+  var text9 = $(this).attr("data-text9");
+  var text10 = $(this).attr("data-text10");
+
   
   if (text == text1) {
   	$(this).find("#link").text(text2);
@@ -27,6 +35,27 @@ $(".clickMe").dblclick(function(e){
   	$(this).find("#link").text(text3);
   }
   else if (text == text3) {
+  	$(this).find("#link").text(text4);
+  }
+  else if (text == text4) {
+  	$(this).find("#link").text(text5);
+  }
+  else if (text == text5) {
+  	$(this).find("#link").text(text6);
+  }
+  else if (text == text6) {
+  	$(this).find("#link").text(text7);
+  }
+  else if (text == text7) {
+  	$(this).find("#link").text(text8);
+  }
+  else if (text == text8) {
+  	$(this).find("#link").text(text9);
+  }
+  else if (text == text9) {
+  	$(this).find("#link").text(text10);
+  }
+  else if (text == text10) {
   	$(this).find("#link").text(text1);
   }
 });
