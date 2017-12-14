@@ -12,12 +12,38 @@
 
 
 body{
-	background-image: url(https://avatanplus.com/files/resources/original/56d48a59c92b51532e3c6ee0.jpg);
+	background-size: cover;
+	background-image: url(http://rdeu.kai.ru/wp-content/uploads/2016/07/fon_chertezh_siniy_linii_tekstura_69444_2560x1080-768x324.jpg);
 }
 
 .buttonBar {
 	display: none;
 }
+/******************************************
+					PRELOADER	
+******************************************/
+#preload{
+  background: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0; 
+  bottom: 0; 
+  text-align: center;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+svg{
+  width: 90vw;
+  height: 100px;
+  display: block;
+  position: relative;
+  top: 45vh;
+}
+
+
+
 
 #link {
 	font-size: 5em;
@@ -30,22 +56,22 @@ body{
 	/*font-family: 'Kranky', cursive;*/
 	/*font-family: 'Frijole', cursive;*/
 	text-shadow: 
-		-0   -1px 3px #21FF37,
-		 0   -1px 3px #21FF37,
-		-0    1px 3px #21FF37,
-		 0    1px 3px #21FF37,
-		-1px -0   3px #21FF37,
-		 1px -0   3px #21FF37,
-		-1px  0   3px #21FF37,
-		 1px  0   3px #21FF37,
-		-1px -1px 3px #21FF37,
-		 1px -1px 3px #21FF37,
-		-1px  1px 3px #21FF37,
-		 1px  1px 3px #21FF37,
-		-1px -1px 3px #21FF37,
-		 1px -1px 3px #21FF37,
-		-1px  1px 3px #21FF37,
-		 1px  1px 3px #21FF37,
+		-0   -1px  1px #21FF37,
+		 0   -1px  1px #21FF37,
+		-0    1px  1px #21FF37,
+		 0    1px  1px #21FF37,
+		-1px -0    1px #21FF37,
+		 1px -0    1px #21FF37,
+		-1px  0    1px #21FF37,
+		 1px  0    1px #21FF37,
+		-1px -1px  1px #21FF37,
+		 1px -1px  1px #21FF37,
+		-1px  1px  1px #21FF37,
+		 1px  1px  1px #21FF37,
+		-1px -1px  1px #21FF37,
+		 1px -1px  1px #21FF37,
+		-1px  1px  1px #21FF37,
+		 1px  1px  1px #21FF37,
 		 0px 0px 100px white;a
 	-ms-user-select: none;
 	-moz-user-select: none;
